@@ -7,7 +7,7 @@ cd /home/ubuntu/server
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash - &&\
 
 #_Download_Node_&NPM
-apt-get install -y nodejs npm
+apt-get install -y nodejs
 
 #_Download_PM2
 npm install pm2@latest -g
